@@ -2,10 +2,17 @@
 
 const hamburger = document.querySelector('.header-right i');
 const mobileNav = document.querySelector('.hamburger-menu');
+const close = document.querySelector('.close');
 console.log(hamburger);
 
-//click
+//open mobile menu
 hamburger.addEventListener('click', function(){
-    console.log('ho cliccato');
+    console.log('Aperto');
     mobileNav.classList.add('active');
+  });
+
+//close mobile menu
+close.addEventListener('click', function(){
+    console.log('Chiuso');
+    mobileNav.classList.remove('active');
   });
