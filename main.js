@@ -1,4 +1,4 @@
-//Seleziono il menu
+//dichiaro le variabili necessarie
 
 const hamburger = document.querySelector('.header-right i');
 const mobileNav = document.querySelector('.hamburger-menu');
